@@ -1,1 +1,107 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T08:24:39.382Z" agent="5.0 (Windows)" version="20.7.4" etag="h97SzopDVXHztbcP5fmW" type="github"><diagram id="JySRdTbFmur9BKY2cqH7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-01T08:34:11.555Z" agent="5.0 (Windows)" version="20.7.4" etag="NztaVWXh0QtDwkdcJuvL" type="github">
+  <diagram id="b7NnBe4oCd4VvMW48Ii3" name="第 1 页">
+    <mxGraphModel dx="646" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-1" value="Task_GPS" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="354" y="60" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;" edge="1" parent="1" source="AMz6HJVIzywFJUuAG0xk-2" target="AMz6HJVIzywFJUuAG0xk-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-2" value="定义解析GPS数据的结构体parser，并初始化" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="310" y="150" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="AMz6HJVIzywFJUuAG0xk-1" target="AMz6HJVIzywFJUuAG0xk-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;" edge="1" parent="1" source="AMz6HJVIzywFJUuAG0xk-4" target="AMz6HJVIzywFJUuAG0xk-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-4" value="定义一个用于存放解码后的位置信息结构体info，并初始化" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;" edge="1" parent="1" source="AMz6HJVIzywFJUuAG0xk-6" target="AMz6HJVIzywFJUuAG0xk-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-6" value="初始化SPI3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="310" y="330" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;" edge="1" parent="1" source="AMz6HJVIzywFJUuAG0xk-8" target="AMz6HJVIzywFJUuAG0xk-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-8" value="打开GPS模块电源" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="310" y="420" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="AMz6HJVIzywFJUuAG0xk-10" target="AMz6HJVIzywFJUuAG0xk-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-10" value="&lt;div&gt;创建队列gps_uwQueue:&lt;/div&gt;&lt;div&gt;用于存放GPS上传来的数据&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="310" y="510" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;" edge="1" parent="1" source="AMz6HJVIzywFJUuAG0xk-12" target="AMz6HJVIzywFJUuAG0xk-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-12" value="&lt;div&gt;调用NMEA解码库解析函数&lt;/div&gt;&lt;div&gt;nmea_parse()得到坐标信息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="310" y="720" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-14" value="请求队列数据" style="rhombus;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="330" y="600" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="AMz6HJVIzywFJUuAG0xk-14" target="AMz6HJVIzywFJUuAG0xk-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="720" as="sourcePoint" />
+            <mxPoint x="415" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;" edge="1" parent="1" source="AMz6HJVIzywFJUuAG0xk-17" target="AMz6HJVIzywFJUuAG0xk-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-17" value="转换为北京时间" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="310" y="810" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;" edge="1" parent="1" source="AMz6HJVIzywFJUuAG0xk-19" target="AMz6HJVIzywFJUuAG0xk-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-19" value="打印出info数据" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="310" y="900" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-21" value="delay_ms(300);" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="310" y="990" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=宋体;" edge="1" parent="1" source="AMz6HJVIzywFJUuAG0xk-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="1130" as="sourcePoint" />
+            <mxPoint x="415" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="1015" />
+              <mxPoint x="270" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-25" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="414" y="680" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=宋体;" edge="1" parent="1" source="AMz6HJVIzywFJUuAG0xk-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="840" as="sourcePoint" />
+            <mxPoint x="415" y="970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="640" />
+              <mxPoint x="560" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMz6HJVIzywFJUuAG0xk-27" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="500" y="610" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
