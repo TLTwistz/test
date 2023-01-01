@@ -1,1 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T08:21:16.342Z" agent="5.0 (Windows)" version="20.7.4" etag="fO9_w2x8_RcSQ62bWpCD" type="github"><diagram id="PsvyufLgsVHIQLdspr4z">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-01T08:24:19.676Z" agent="5.0 (Windows)" version="20.7.4" etag="-KIOUckdX4Pe2RD8Doq0" type="github">
+  <diagram id="POXs5J5YD_NI0QeJQc7i" name="第 1 页">
+    <mxGraphModel dx="646" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pO2iDbgC4sVYimDLPaYS-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="354" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pO2iDbgC4sVYimDLPaYS-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;" edge="1" parent="1" source="pO2iDbgC4sVYimDLPaYS-3" target="pO2iDbgC4sVYimDLPaYS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pO2iDbgC4sVYimDLPaYS-3" value="LED引脚初始化" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="354" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pO2iDbgC4sVYimDLPaYS-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="pO2iDbgC4sVYimDLPaYS-1" target="pO2iDbgC4sVYimDLPaYS-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="350" as="sourcePoint" />
+            <mxPoint x="740" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pO2iDbgC4sVYimDLPaYS-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;" edge="1" parent="1" source="pO2iDbgC4sVYimDLPaYS-6" target="pO2iDbgC4sVYimDLPaYS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pO2iDbgC4sVYimDLPaYS-6" value="流水灯任务创建" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="354" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pO2iDbgC4sVYimDLPaYS-7" value="系统运行调度任务" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="354" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pO2iDbgC4sVYimDLPaYS-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=宋体;" edge="1" parent="1" source="pO2iDbgC4sVYimDLPaYS-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="360" as="sourcePoint" />
+            <mxPoint x="414" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="490" />
+              <mxPoint x="560" y="490" />
+              <mxPoint x="560" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
