@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T08:13:13.285Z" agent="5.0 (Windows)" version="20.7.4" etag="ysce2Y_1n531ZkQ-kJwD" type="github"><diagram id="YdLdcBjJdc1fsm6Wn0CT">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-01T08:18:07.743Z" agent="5.0 (Windows)" version="20.7.4" etag="SLaHZzP5aVAatHGaEPms" type="github">
+  <diagram id="lRVU0aTXbNIzY7KBs9I3" name="第 1 页">
+    <mxGraphModel dx="646" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Yil09whfM7rKFfw1Qadx-1" value="uart初始化函数" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="354" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yil09whfM7rKFfw1Qadx-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;" edge="1" parent="1" source="Yil09whfM7rKFfw1Qadx-2" target="Yil09whfM7rKFfw1Qadx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yil09whfM7rKFfw1Qadx-2" value="1.使能RX和TX引脚GPIO时钟和USART2时钟" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="289" y="150" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yil09whfM7rKFfw1Qadx-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="Yil09whfM7rKFfw1Qadx-1" target="Yil09whfM7rKFfw1Qadx-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="160" as="sourcePoint" />
+            <mxPoint x="460" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yil09whfM7rKFfw1Qadx-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;" edge="1" parent="1" source="Yil09whfM7rKFfw1Qadx-5" target="Yil09whfM7rKFfw1Qadx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yil09whfM7rKFfw1Qadx-5" value="2.初始化GPIO，并将GPIO复用到USART上" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="289" y="250" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yil09whfM7rKFfw1Qadx-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;" edge="1" parent="1" source="Yil09whfM7rKFfw1Qadx-7" target="Yil09whfM7rKFfw1Qadx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yil09whfM7rKFfw1Qadx-7" value="3.配置USART参数" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="289" y="350" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yil09whfM7rKFfw1Qadx-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;" edge="1" parent="1" source="Yil09whfM7rKFfw1Qadx-9" target="Yil09whfM7rKFfw1Qadx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yil09whfM7rKFfw1Qadx-9" value="4.配置中断控制器并使能USART接收中断" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="289" y="450" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yil09whfM7rKFfw1Qadx-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;" edge="1" parent="1" source="Yil09whfM7rKFfw1Qadx-11" target="Yil09whfM7rKFfw1Qadx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yil09whfM7rKFfw1Qadx-11" value="5.使能USART" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="289" y="554.5" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yil09whfM7rKFfw1Qadx-13" value="6.在USART接受终端服务函数实现数据接收和发送" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="289" y="650" width="250" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
