@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T08:02:54.706Z" agent="5.0 (Windows)" version="20.7.4" etag="l-WWnJ-svtwmAovK6onC" type="github"><diagram id="iTz70cmuuHaQyZXMA5GQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-01T08:12:30.816Z" agent="5.0 (Windows)" version="20.7.4" etag="5qxYtIVD1_jhGVasklX3" type="github">
+  <diagram id="jHjP5jRu_6XnaVSKPulp" name="第 1 页">
+    <mxGraphModel dx="646" dy="754" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6vLoDwo577NpfBrBCeCK-1" value="Led任务Task_led" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="354" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6vLoDwo577NpfBrBCeCK-2" value="LED初始化" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="354" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6vLoDwo577NpfBrBCeCK-3" value="&lt;div&gt;OLED初始化&lt;/div&gt;&lt;div&gt;1.复位SSD13.6&lt;/div&gt;&lt;div&gt;RST=0;RST=1;&lt;/div&gt;&lt;div&gt;2.驱动IC初始化配置&lt;/div&gt;&lt;div&gt;3.开启显示&lt;/div&gt;&lt;div&gt;4.清0显存&lt;/div&gt;&lt;div&gt;5.开始显示&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="354" y="260" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6vLoDwo577NpfBrBCeCK-4" value="OLED闪烁" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="354" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6vLoDwo577NpfBrBCeCK-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=宋体;" edge="1" parent="1" source="6vLoDwo577NpfBrBCeCK-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="420" as="sourcePoint" />
+            <mxPoint x="414" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="560" />
+              <mxPoint x="320" y="560" />
+              <mxPoint x="320" y="430" />
+              <mxPoint x="410" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6vLoDwo577NpfBrBCeCK-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="6vLoDwo577NpfBrBCeCK-3" target="6vLoDwo577NpfBrBCeCK-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="420" as="sourcePoint" />
+            <mxPoint x="360" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6vLoDwo577NpfBrBCeCK-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="6vLoDwo577NpfBrBCeCK-2" target="6vLoDwo577NpfBrBCeCK-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="420" as="sourcePoint" />
+            <mxPoint x="360" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6vLoDwo577NpfBrBCeCK-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="6vLoDwo577NpfBrBCeCK-1" target="6vLoDwo577NpfBrBCeCK-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="420" as="sourcePoint" />
+            <mxPoint x="360" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
