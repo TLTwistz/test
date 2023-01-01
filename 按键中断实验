@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T07:55:02.052Z" agent="5.0 (Windows)" version="20.7.4" etag="MqDOnqh5r0qyOossA1xV" type="github"><diagram id="JMQ3lCvyagNKCklVVn4r">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-01T07:57:12.318Z" agent="5.0 (Windows)" version="20.7.4" etag="ySEvNBE2niQye9zTZPRe" type="github">
+  <diagram id="2nXwK0COnbfNbo0FSfOB" name="第 1 页">
+    <mxGraphModel dx="646" dy="754" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JsA-d51MN0U5pEflEzLv-1" value="LED任务Task_led" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="354" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JsA-d51MN0U5pEflEzLv-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;" edge="1" parent="1" source="JsA-d51MN0U5pEflEzLv-3" target="JsA-d51MN0U5pEflEzLv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JsA-d51MN0U5pEflEzLv-3" value="初始化LED引脚、数码管显示初始值time" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="354" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JsA-d51MN0U5pEflEzLv-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="JsA-d51MN0U5pEflEzLv-1" target="JsA-d51MN0U5pEflEzLv-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="170" as="sourcePoint" />
+            <mxPoint x="414" y="190.71067811865476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsA-d51MN0U5pEflEzLv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;" edge="1" parent="1" source="JsA-d51MN0U5pEflEzLv-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsA-d51MN0U5pEflEzLv-6" value="&lt;div&gt;1.亮灭led&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3.取出time的个、十、百、千位的数值&lt;/div&gt;&lt;div&gt;4.并将个、十、百、千设置为数码管显示值&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="354" y="280" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JsA-d51MN0U5pEflEzLv-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;" edge="1" parent="1" source="JsA-d51MN0U5pEflEzLv-7" target="JsA-d51MN0U5pEflEzLv-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JsA-d51MN0U5pEflEzLv-7" value="Time==true？" style="rhombus;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="360" y="460" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JsA-d51MN0U5pEflEzLv-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=宋体;" edge="1" parent="1" source="JsA-d51MN0U5pEflEzLv-7">
+          <mxGeometry x="-0.0185" y="50" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="500" as="sourcePoint" />
+            <mxPoint x="414" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="500" />
+              <mxPoint x="520" y="370" />
+              <mxPoint x="520" y="260" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsA-d51MN0U5pEflEzLv-9" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="470" y="470" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JsA-d51MN0U5pEflEzLv-11" value="2.time递加/200ms" style="whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="355" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JsA-d51MN0U5pEflEzLv-13" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="414" y="540" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
